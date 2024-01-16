@@ -1,0 +1,80 @@
+/* Import des couleurs*/
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin-inline: 0;
+  background-color: white;
+  color: black;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.bouton-container {
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  gap: 17px;
+  align-items: center;
+}
+
+#search-input {
+  border: none;
+  background: inherit;
+  width: 375px;
+  height: 50px;
+  font-size: 16px;
+}
+
+.search-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 10px;
+  background-color: #EAEAEA;
+  align-items: center;
+  margin-inline: auto;
+}
+
+.fa-location-dot:before,
+.fa-map-marker-alt:before {
+  content:"\f3c5";
+  color: #353535;
+  margin-left: 272px;
+}
+
+.filter-button {
+  width: 85%;
+  height: 72px;
+  border-radius: 20px;
+  gap: 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+h2 {
+  margin-left: 15px;
+  margin-top: 40px;
+}
+
+.section-title {
+  padding-top: 35px;
+}
+
+.fa-solid-button {
+  width: 13px;
+  height: 20px;
+}
+
+.fa-store {
+  color: #9356DC;
+}
+
+
+/*# sourceMappingURL=style.css.map */

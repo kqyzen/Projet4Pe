@@ -1,0 +1,41 @@
+/* Import des fichiers Scss*/
+
+@import "color.scss";
+
+@import "mixin.scss";
+
+@import "article.scss";
+
+@import "logo.scss";
+
+@import "card.scss";
+
+@import "footer.scss";
+
+* {
+    font-family : 'Roboto', sans-serif;
+}
+
+body {
+    margin-inline: 0;
+    @include maMixin;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.bouton-container {
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+}
+
+.button {
+    .span {
+        margin-right: 45px;
+    }
+}
