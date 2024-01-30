@@ -21,6 +21,15 @@ body {
     @include maMixin;
 }
 
+h1 {
+    font-family: 'Shrikhand';
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+h2 {
+    margin-left: 35px;
+}
 header {
     display: flex;
     justify-content: center;
@@ -35,7 +44,13 @@ header {
 }
 
 .button {
-    .span {
+    span {
         margin-right: 45px;
     }
+}
+
+.filter-button {
+    height: 72px;
+    width: 85%;
+    border-radius: 20px;
 }

@@ -1,23 +1,23 @@
 .footer-logo {
-    width: 30%;
-    .img {
-        width: 100%;
-        margin-left: 20px;
-        margin-top: 20px;
+        margin-top: 40px;
+        padding-top: 25px;
+    span {
+        font-family: 'Shrikhand';
         color: white;
+        margin-left: 20px;
+        font-size: 18px;
     }
-    
 }
 
 .footer-text {
-    .ul {
-            gap: 10px;
-            display: flex;
-            flex-direction: column;
-            list-style-type: none;
-            margin-left: -20px;
-        .li {
-            .a {
+    ul {
+                gap: 10px;
+                flex-direction: column;
+                display: flex;
+                list-style-type: none;
+                margin-left: -20px;
+        li {
+            a {
                 display: flex;
                 text-decoration: none;
                 color: white;
