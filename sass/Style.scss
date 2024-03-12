@@ -53,4 +53,17 @@ header {
     height: 72px;
     width: 85%;
     border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    place-items: center;
+    gap: 200px;
+    background: rgba(246, 246, 246, 1);
 }
+
+.fa-store {
+    color: #9356DC;
+    ;
+}
+
+

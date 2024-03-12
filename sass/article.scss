@@ -6,6 +6,7 @@
     gap: 10px;
     padding: 60px;
     background-color: #F6F6F6;
+    place-items: center;
 h1{
     font-size: 24px;
     margin-inline: 65px;
@@ -20,7 +21,7 @@ span{
 }
 button {
     margin-inline: 58px;
-    background-color: #9356DC;
+    background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
     height: 50px;
     border-radius: 30px;
     color: white;
