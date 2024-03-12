@@ -1,0 +1,21 @@
+.logo {
+        height: 75px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    h1 {
+        height: 36px;
+        margin: 13px;
+    }
+}
+
+.search-container {
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    background: rgba(234, 234, 234, 1);
+}
+
+.main-container > header:nth-child(1) > div:nth-child(1) {
+    width: 100%;
+}
